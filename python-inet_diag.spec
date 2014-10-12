@@ -19,6 +19,8 @@ BuildRequires:	rpmbuild(macros) >= 1.612
 %if %{with python3}
 BuildRequires:	python3-devel >= 1:3.2
 %endif
+BuildRequires:	tar >= 1:1.22
+BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
