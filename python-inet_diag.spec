@@ -15,7 +15,7 @@ Source0:	https://www.kernel.org/pub/software/libs/python/python-inet_diag/%{name
 URL:		https://rt.wiki.kernel.org/index.php/Tuna
 BuildRequires:	python-devel >= 2
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.612
+BuildRequires:	rpmbuild(macros) >= 1.710
 %if %{with python3}
 BuildRequires:	python3-devel >= 1:3.2
 %endif
