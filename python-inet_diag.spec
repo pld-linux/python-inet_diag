@@ -6,12 +6,12 @@
 Summary:	Ethernet settings Python 2 bindings
 Summary(pl.UTF-8):	Wiązania Pythona 2 do ustawień sieci Ethernet
 Name:		python-inet_diag
-Version:	0.1
-Release:	2
+Version:	0.2.1
+Release:	1
 License:	GPL v2
 Group:		Libraries/Python
 Source0:	https://www.kernel.org/pub/software/libs/python/python-inet_diag/%{name}-%{version}.tar.xz
-# Source0-md5:	622310fe9ab0e52e0eda586227383992
+# Source0-md5:	7a071c167e8c2a4e3a1839fb33889417
 URL:		https://rt.wiki.kernel.org/index.php/Tuna
 BuildRequires:	python-devel >= 2
 BuildRequires:	rpm-pythonprov
